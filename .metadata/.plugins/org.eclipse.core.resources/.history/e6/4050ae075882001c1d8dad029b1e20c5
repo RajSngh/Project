@@ -1,0 +1,8 @@
+package FlightReservationSystem;
+
+public class Paypal {
+    private String name;
+    private String cardNumber;
+    private Date expires;
+    public boolean pay(double amount);
+}

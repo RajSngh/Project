@@ -1,0 +1,14 @@
+package FlightReservationSystem;
+
+public class Flight {
+    private String flightNO;
+    int duration;
+    private Airport departure;
+    private Airport arrival;
+	public String getFlightNO() {
+		return flightNO;
+	}
+	public void setFlightNO(String flightNO) {
+		this.flightNO = flightNO;
+	}
+}

@@ -1,0 +1,8 @@
+package FlightReservationSystem;
+
+public enum FlightStatus {
+    ACTIVE,
+    SCHEDULED,
+    DELAYED,
+    DEPARTED
+}

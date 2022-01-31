@@ -1,0 +1,16 @@
+package FlightReservationSystem;
+
+import java.util.Date;
+
+public class MobileTransaction {
+    private String serviceProvider;
+    private int mobileNumber;
+    private Date expires;
+    public  boolean pay(double amount);
+	public int getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(int mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+}

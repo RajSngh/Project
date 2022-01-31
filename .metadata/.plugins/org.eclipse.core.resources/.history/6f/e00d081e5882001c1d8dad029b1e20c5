@@ -1,0 +1,8 @@
+package FlightReservationSystem;
+
+public class Flight {
+    private String flightNO;
+    int duration;
+    private Airport departure;
+    private Airport arrival;
+}

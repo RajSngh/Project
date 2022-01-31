@@ -1,0 +1,8 @@
+package FlightReservationSystem;
+
+public class Notification {
+    private int notificationId;
+    Data CreatedOn;
+    private String content;
+    boolean send();
+}

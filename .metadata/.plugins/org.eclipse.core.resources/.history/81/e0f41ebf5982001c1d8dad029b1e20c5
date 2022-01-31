@@ -1,0 +1,13 @@
+package FlightReservationSystem;
+
+import java.util.Date;
+import java.util.List;
+
+public class FlightSchedule {
+    Flight flight;
+    private Date departureTime;
+    private String gate;
+    private FlightStatus status;
+
+    private List<FlightSeat> fseats;
+}

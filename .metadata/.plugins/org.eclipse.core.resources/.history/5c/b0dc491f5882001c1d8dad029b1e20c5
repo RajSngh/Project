@@ -1,0 +1,6 @@
+package FlightReservationSystem;
+
+public class EmailNotification {
+    private String email;
+    boolean send();
+}

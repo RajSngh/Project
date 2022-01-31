@@ -1,0 +1,6 @@
+package FlightReservationSystem;
+
+public class FlightSeat extends Seat{
+    private int fare;
+    enum bookingStatus;
+}

@@ -1,0 +1,11 @@
+package FlightReservationSystem;
+
+import java.util.Date;
+
+public class FlightReservation {
+    private String reservationNumber;
+    private FlightSchedule flight;
+    private Map< Customer, FlightSeat> seatMap;
+    private Date creationDate;
+    private ReservationStatus status;
+}
